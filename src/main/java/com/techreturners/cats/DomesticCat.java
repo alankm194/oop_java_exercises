@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class DomesticCat extends AbstractCat {
 
-    private Random randomGen;
+    private final Random randomGen;
     private static final int MAX_INT_BOUND = 10;
     private static final int RARE_EVENT_CHANCE = 7;
     public DomesticCat() {
