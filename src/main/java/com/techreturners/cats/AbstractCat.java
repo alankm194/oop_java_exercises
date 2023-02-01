@@ -1,9 +1,9 @@
 package com.techreturners.cats;
 
 public abstract class AbstractCat implements Cat{
-    protected boolean isAsleep;
-    protected String setting;
-    protected int averageHeight;
+    private boolean isAsleep;
+    private String setting;
+    private int averageHeight;
 
     public AbstractCat(String setting, int averageHeight) {
         this.isAsleep = false;

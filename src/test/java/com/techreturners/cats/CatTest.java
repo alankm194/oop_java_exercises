@@ -19,7 +19,7 @@ public class CatTest {
     }
 
     @Test
-    public void checkCatCanWakep() {
+    public void checkCatCanWakeUp() {
         Cat domesticCat = new DomesticCat();
         domesticCat.goToSleep();
         domesticCat.wakeUp();
@@ -60,7 +60,7 @@ public class CatTest {
     @Test
     public void feedTheCat() {
         Cat domesticCat = new DomesticCat();
-        String catResponseAfterEating  = domesticCat.eat();
+        String catResponseAfterEating = domesticCat.eat();
         assertTrue(catResponseAfterEating.equals("Purrrrrrr") || catResponseAfterEating.equals("It will do I suppose"));
     }
 }
